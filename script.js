@@ -1,6 +1,6 @@
 const key="bd700beb966ef93d311741e327a196fa"
 const surl="https://gnews.io/api/v4/search?apikey="+key+"&q="
-const nurl="https://gnews.io/api/v4/top-headlines?apikey="+key+"&category="
+const nurl="https://gnews.io/api/v4/top-headlines?apikey="+key+"&lang=en&category="
 function searchNews(e){
     e.preventDefault()
     $('#result').empty()
